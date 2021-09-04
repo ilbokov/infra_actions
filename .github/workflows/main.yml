@@ -42,4 +42,4 @@ jobs:
         uses: docker/build-push-action@v2 # Выполняет push образа в DockerHub 
         with:
           push: true
-          tags: <логин-на-docker-hub>/<репозиторий-на-docker-hub>:latest 
+          tags: ilbokov/infra_actions:latest 
